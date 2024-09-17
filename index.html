@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Joaoluisribeiro</title>
+   <link rel="icone"href="icone.png"type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1 class="logo">JLS  </h1>
+    <nav class="navbar">
+          <a href="#home">Home</a>
+          <a href="#abount">Abount</a>
+          <a href="#contact">contat</a>
+    </nav>
+  </header>
+  <section class="home"id="home">
+    <div class="container">
+      <h2 class="chamado"><span>hello</span></h2>
+      <h2 class="chamado">My name is <span>Joaoluis</span></h2>
+      <p class="pt">work with different solutions<br>
+      automation, website creation, application creation among others</p>
+      <div>
+        <button onclick="funcao()"class="bt">hire</button>
+      </div>
+      </div>
+    <img src="foto.png"id="foto"alt="foro">
+  </section>
+  <section cLass="abount"id="abount">
+    <img src="ft.png"id="ft">
+    <div class="cardtext">
+    <h2 class="ab">Abount</h2>
+    <p class="abp">I provide various services, such as creating landing pages, creating capture pages, creating international websites. </p>
+    </div>
+    <div class="socialmedia">
+        <i class="bi bi-whatsapp"></i>
+        <i class="bi bi-facebook"></i>
+        <i class="bi bi-instagram"></i>
+    </div>
+  </section>
+  <section class="contat"id="contact">
+    <h2>fill out the form </h2>
+    <div class="fom">
+      <form action="https://api.staticforms.xyz/submit"method="POST">
+       <input type="text"name="name"placeholder="your name"required>
+        <br>
+        <input type="email"name="email"placeholder="your email "required>
+        <br >
+        <textarea cols="30"rows="10"name="message"placeholder="type your message"required></textarea>
+        <br>
+        <br>
+           <button type="subimit" id="sub">to send</button>
+        <input type="hidden" name="accessKey" value="a80cc4a1-563d-46fa-8b98-f2582d0f7753">
+        <input type="hidden" name="redirectTo" value="http://localhost:7700/success.html"> 
+        </form>
+    </div>
+    <br>
+  </section>
+  <script src="main.js"></script>
+</body>
+</html>
